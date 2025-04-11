@@ -9,10 +9,10 @@ use std::time::Duration;
 #[derive(Parser)]
 #[command(author, version, about, long_about = None)]
 struct Args {
-    #[arg(short, long, help = "Input CSV file")]
+    #[arg(help = "Input CSV file")]
     input: String,
 
-    #[arg(short, long, help = "Output JSONL file")]
+    #[arg(help = "Output JSONL file")]
     output: String,
 }
 
