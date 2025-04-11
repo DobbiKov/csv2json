@@ -9,5 +9,7 @@ description = "Convert CSV files to JSONL"
 clap = { version = "4.5.23", features = ["derive"] }
 csv = "1.3.1"
 indicatif = "0.17.9"
+rayon = "1.10.0"
 serde = "1.0.215"
 serde_json = "1.0.133"
+
